@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+
+h1{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "raleway";
+}
+form h4{
+    font-family: 'raleway';
+    font-size: 20px;
+}
+form{
+    font-family: "raleway";
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 20px 20px 20px;
+    margin-left: 500px;
+    margin-top: 10px;
+    width: 600px;
+}
+.form-elements-articles h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-elements-articles span{
+    font-size: 15px;
+}
+form input{
+    border: 1px solid black;
+    border-radius: 18px;
+    background: transparent;
+    padding : 10px 10px 10px 20px;
+    width: 300px;
+    margin-top: 10px;
+}
+form button{
+    cursor: pointer;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    width: 100px;
+}
+form button:hover{
+    color: white;
+    background-color: rgb(184, 6, 6);
+}
+.options-taille select{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.options-paiement select{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+}
